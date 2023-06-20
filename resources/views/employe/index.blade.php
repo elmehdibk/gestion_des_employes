@@ -27,11 +27,11 @@
                 
 
                         <div class="btn-group">
-                        <button class="btn btn-secondary dropdown-toggle " style="width:350px;" type="button" id="triggerId" data-bs-toggle="dropdown" aria-haspopup="true"
+                        <button class="btn btn-secondary dropdown-toggle " style="width:450px; " type="button" id="triggerId" data-bs-toggle="dropdown" aria-haspopup="true"
                                     aria-expanded="false">
                                         EMAIL
                             </button>
-                            <div class="dropdown-menu dropdown-menu-start" style="width:350px;" aria-labelledby="triggerId">
+                            <div class="dropdown-menu dropdown-menu-start" style="width:450px;" aria-labelledby="triggerId">
                                 @foreach ($employes as $employe)
                                 
                             <a href="{{route('employes.index',$employe->email)}}" class='dropdown-item'><option>{{$employe->email}}</option></a>
